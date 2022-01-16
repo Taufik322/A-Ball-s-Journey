@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44606847, g: 0.49583167, b: 0.5744938, a: 1}
+  m_IndirectSpecularColor: {r: 0.44606864, g: 0.49583197, b: 0.57449436, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -152,7 +152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 97564509}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.3, y: 0.25, z: 0}
+  m_LocalPosition: {x: 0.1, y: 0.25, z: 0}
   m_LocalScale: {x: 2.5, y: 0.5, z: 3.5}
   m_Children: []
   m_Father: {fileID: 817702154}
@@ -411,7 +411,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360578645}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.87, y: 0, z: 0}
+  m_LocalPosition: {x: 0.03, y: 0, z: 0}
   m_LocalScale: {x: 2.5, y: 0.5, z: 3.5}
   m_Children: []
   m_Father: {fileID: 1284830221}
@@ -841,7 +841,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817702153}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.24, y: 0, z: 15}
+  m_LocalPosition: {x: 32.2, y: 0, z: 15}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 97564510}
@@ -1194,7 +1194,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1284830220}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.5, y: 0.5, z: -15}
+  m_LocalPosition: {x: 21.93, y: 0.5, z: -15}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 360578646}
@@ -1611,7 +1611,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740425660}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.4, y: 0.5, z: 0}
+  m_LocalPosition: {x: 2.15, y: 0.5, z: 0}
   m_LocalScale: {x: 20, y: 1, z: 20}
   m_Children: []
   m_Father: {fileID: 352525071}
@@ -1963,6 +1963,7 @@ GameObject:
   - component: {fileID: 2039229382}
   - component: {fileID: 2039229383}
   - component: {fileID: 2039229384}
+  - component: {fileID: 2039229385}
   m_Layer: 0
   m_Name: ParentC
   m_TagString: Terrain
@@ -2030,6 +2031,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.5081825, y: 0.6235918, z: 3.498375}
   m_Center: {x: 0.20204735, y: 0.31470084, z: 0.024518967}
+--- !u!114 &2039229385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039229380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01bc863c1f86814eb3f4a2d338d4dc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 1306916157}
 --- !u!1001 &8616290643104588330
 PrefabInstance:
   m_ObjectHideFlags: 0
