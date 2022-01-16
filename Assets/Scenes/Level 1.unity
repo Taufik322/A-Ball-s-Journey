@@ -1169,7 +1169,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ce59a2569f26b943bbee0dafd2e1ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 3
   sceneNameToLoad: Level 2
 --- !u!1001 &1062771080
 PrefabInstance:
