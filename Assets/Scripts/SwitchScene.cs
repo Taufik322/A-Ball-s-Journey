@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SwitchScene : MonoBehaviour
 {
+    [SerializeField]
     private string sceneNameToLoad;
     
     // Update is called once per frame
