@@ -27,14 +27,16 @@ public class PlayerController : MonoBehaviour
         movementY = movementVector.y;
     }
 
-    void Update()
+    void Update(){
+        if (Input.GetKeyDown(KeyCode.Space) && !inAir)
+            rb.AddForce(new Vector3(0, 35, 0), ForceMode.Impulse);
+    }
+
+    void FixedUpdate()
     {
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
         
         rb.AddForce(movement * speed);
-
-        if (Input.GetKeyDown(KeyCode.Space) && !inAir)
-            rb.AddForce(new Vector3(0, 35, 0), ForceMode.Impulse);
     }
     
     void OnCollisionEnter(Collision other)
