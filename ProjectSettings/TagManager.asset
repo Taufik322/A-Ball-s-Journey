@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Terrain
   - obs
+  - Music
   layers:
   - Default
   - TransparentFX
